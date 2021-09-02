@@ -1,7 +1,7 @@
 const sharp = require("sharp");
 const fs = require("fs");
 const basePath = "./original";
-const game = 3;
+const game = 4;
 
 fs.readdir(`${basePath + game}/`, async function (err, files) {
   if (err) {
